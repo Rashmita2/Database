@@ -1,6 +1,6 @@
 # Database Project 1
 
-#Tools
+# Tools
  - MacOS
  - SQLite
 
