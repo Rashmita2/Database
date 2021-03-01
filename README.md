@@ -5,9 +5,9 @@
  - SQLite
 
 # DONE
-Created the tables
-Inserted the values in the table
-Retrived the values from the table
+-Created the tables
+-Inserted the values in the table
+-Retrived the values from the table
 
 
 
