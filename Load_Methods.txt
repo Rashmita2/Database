@@ -1,0 +1,15 @@
+.separator ","
+.import DEPARTMENT.txt DEPARTMENT
+.import DEPT_LOCATIONS.txt DEPT_LOCATIONS
+.import PROJECT.txt PROJECT
+.import EMPLOYEE.txt EMPLOYEE
+.import WORKS_ON.txt WORKS_ON
+
+
+NOTE: imported all the data from the text file to insert the values into the table
+
+SELECT * FROM DEPARTMENT;
+SELECT * FROM DEPT_LOCATIONS;
+SELECT * FROM PROJECT;
+SELECT * FROM WORKS_ON;
+SELECT * FROM EMPLOYEE;

@@ -12,8 +12,14 @@ Included files:
  - Load_Methods.txt
  - Select.txt
  - README.txt
- - EntryFiles/
+ - DEPARTMENT.txt
+ - DEPT_LOCATIONS.txt
+ - EMPLOYEE.txt
+ - WORKS_ON.txt
+ - PROJECT.txt
 
-TODO: include Source Code and Screenshot of of Database and Tables creations
-TODO: Explain which method used to load data into the tables
-TODO: include Source Code and Screenshot of Retrival
+Github link:
+https://github.com/hoangluu404/CSE3330
+
+The file named CSE3330_MB_RK_HL consists of all the answers from Question 1-8. It also has the screenshot of all the outputs that our team got.The data was imported from the text file to the tables.
+
