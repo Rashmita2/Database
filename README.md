@@ -6,6 +6,7 @@
 
 # DONE
 -Created the tables
+-Imported the values from the text file.
 -Inserted the values in the table
 -Retrived the values from the table
 
