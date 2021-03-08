@@ -1,4 +1,4 @@
-# Database Project 1
+# Project 1
 
 # Tools
  - MacOS
