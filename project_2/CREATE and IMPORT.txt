@@ -1,0 +1,50 @@
+sqlite3 CarRental
+
+create table CUSTOMER(
+
+	CustID NUMBER PRIMARY KEY,
+	Name TEXT NOT NULL,
+	Phone CHAR(14) NOT NULL
+
+);
+
+
+CREATE TABLE RENTAL(
+
+	CustID NUMBER NOT NULL,
+	VehicleID TEXT NOT NULL,
+	StartDate TEXT NOT NULL,
+	OrderDate TEXT NOT NULL,
+	RentalType CHAR(1) NOT NULL,
+	Qty INT NOT NULL,
+	ReturnDate TEXT NOT NULL,
+	TotalAmount NUMBER NOT NULL,
+	PaymentDate TEXT
+
+);
+
+
+CREATE TABLE VEHICLE(
+
+	VehicleID TEXT PRIMARY KEY,
+	Description TEXT,
+	Year NUMBER NOT NULL,
+	Type CHAR(1) NOT NULL,
+	Category CHAR(1) NOT NULL
+
+);
+
+
+CREATE TABLE RATE(
+
+	Type CHAR(1) NOT NULL,
+	Category CHAR(1) NOT NULL,
+	Weekly NUMBER NOT NULL,
+	Daily NUMBER NOT NULL
+
+);
+
+.import ./Car_Rental/CUSTOMER.csv CUSTOMER --csv --skip 1
+.import ./Car_Rental/RENTAL.csv RENTAL --csv --skip 1
+.import ./Car_Rental/VEHICLE.csv VEHICLE --csv --skip 1
+.import ./Car_Rental/RATE.csv RATE --csv --skip 1

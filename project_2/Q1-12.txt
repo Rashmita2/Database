@@ -1,0 +1,50 @@
+1. INSERT INTO CUSTOMER VALUES (NULL, 'Hoang Luu', '(817) 888-8888');
+
+
+2. 
+UPDATE CUSTOMER
+SET Phone = '(837) 721-8965'
+WHERE Name = 'Hoang Luu';
+
+
+3.
+UPDATE RATE
+SET Daily = Daily*1.05
+WHERE Category = '1';
+
+
+4.a
+INSERT INTO VEHICLE
+VALUES ('5FNRL6H58KB133711', 'Honda Odyssey', 2019, '6', '1');
+
+
+4.b
+INSERT INTO RATE
+VALUES ('5', '1', 900.00, 150.00), ('6', '1', 800.00, 135.00);
+
+
+5.
+
+
+6.
+
+
+7.
+
+
+8.
+
+
+9.a
+
+
+9.b
+
+
+10.
+
+
+11.
+
+
+12.
